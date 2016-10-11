@@ -13,5 +13,6 @@
         <router-view></router-view>
     </div>
     <script src="/js/app.js"></script>
+    <!-- test -->
 </body>
 </html>
