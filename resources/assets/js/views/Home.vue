@@ -1,19 +1,16 @@
 <template>
-    <div>
+    <div class="container">
+        <h4>Home View</h4>
         <navbar></navbar>
-        This is the homepage.
     </div>
 </template>
 
 <script>
-    import Navbar from './Navbar.vue';
+    import Navbar from './../components/Navbar.vue';
 
     export default {
         components: {
             Navbar
-        },
-        ready() {
-            console.log('Homeview is ready');
         }
     }
 </script>
