@@ -2,7 +2,7 @@
     <div>
         <navbar></navbar>
         <div class="container">
-            <h4>Home View</h4>
+            <h2>Log in</h2>
         </div>
     </div>
 </template>
