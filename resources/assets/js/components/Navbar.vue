@@ -17,6 +17,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a v-on:click="$router.push('/')">Home <span class="sr-only">(current)</span></a></li>
                         <li><a v-on:click="$router.push('login')">Login</a></li>
+                        <li><a href="/login">Login</a></li>
                         <li><router-link to="/login">Go to Foo</router-link></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
@@ -39,9 +40,6 @@
 </template>
 
 <script>
-    //import {router} from './../app.js';
-
-    //router.push('login');
 
     export default {
         name: 'navbar',

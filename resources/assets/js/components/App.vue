@@ -4,6 +4,12 @@
     </div>
 </template>
 
+<style>
+    a {
+        cursor: pointer;
+    }
+</style>
+
 <script>
     export default {
         created() {
